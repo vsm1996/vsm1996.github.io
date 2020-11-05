@@ -90,8 +90,12 @@ main {
 
 .languages {
   margin: 4rem 0;
+  line-height: 10px;
 }
 
+small {
+  color: rgba(99, 99, 99, 0.582);
+}
 .skills {
   display: flex;
   justify-content: space-evenly;
