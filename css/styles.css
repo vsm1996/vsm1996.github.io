@@ -93,8 +93,8 @@ main {
   line-height: 10px;
 }
 
-small {
-  color: rgba(99, 99, 99, 0.582);
+.small {
+  color: rgba(77, 77, 77, 0.582);
 }
 .skills {
   display: flex;
