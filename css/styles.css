@@ -282,7 +282,7 @@ main {
     height: 720px;
   }
 
-  .projects .row-bug-fix {
+  .projects .row-column-rev {
     display: flex;
     flex-direction: column-reverse;
   }
