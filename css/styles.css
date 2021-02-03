@@ -208,7 +208,7 @@ main {
 
   .projects .row:first-child {
     display: flex;
-    flex-direction: column-reverse;
+    /* flex-direction: column-reverse; */
   }
 
   .projects .row {
@@ -219,7 +219,12 @@ main {
 
   .projects .row-bug-fix {
     display: flex;
-    flex-direction: column-reverse;
+    /* flex-direction: column-reverse; */
+  }
+
+  .row-column-rev {
+    display: flex;
+    flex-direction: column-reverse !important;
   }
 
   .projects p {
@@ -240,7 +245,7 @@ main {
 
   .projects .row:first-child {
     display: flex;
-    flex-direction: column-reverse;
+    /* flex-direction: column-reverse; */
   }
 
   .projects .row {
@@ -249,9 +254,9 @@ main {
     height: 720px;
   }
 
-  .projects .row-bug-fix {
+  .row-column-rev {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column-reverse !important;
   }
 
   .projects p {
@@ -273,7 +278,7 @@ main {
 
   .projects .row:first-child {
     display: flex;
-    flex-direction: column-reverse;
+    /* flex-direction: column-reverse; */
   }
 
   .projects .row {
@@ -282,9 +287,9 @@ main {
     height: 720px;
   }
 
-  .projects .row-column-rev {
+  .row-column-rev {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column-reverse !important;
   }
 
   .projects p {
